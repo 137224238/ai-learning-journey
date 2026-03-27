@@ -1,0 +1,46 @@
+# ===== 核心依赖 =====
+openai>=1.0.0              # OpenAI API
+anthropic>=0.20.0          # Claude API
+python-dotenv>=1.0.0       # 环境变量
+
+# ===== LLM 框架 =====
+langchain>=0.2.0
+langchain-openai>=0.1.0
+langgraph>=0.1.0
+llama-index>=0.10.0
+
+# ===== 向量库 =====
+chromadb>=0.4.0            # 本地向量库（推荐入门）
+# pinecone-client>=3.0.0   # 云端（可选）
+# weaviate-client>=4.0.0   # 自托管（可选）
+
+# ===== Embedding & 模型 =====
+sentence-transformers>=2.6.0
+transformers>=4.40.0
+torch>=2.2.0
+
+# ===== 文档处理 =====
+PyPDF2>=3.0.0
+python-docx>=1.1.0
+unstructured>=0.12.0
+
+# ===== 评估 =====
+ragas>=0.1.0
+rouge-score>=0.1.2
+nltk>=3.8.0
+
+# ===== 后端 =====
+fastapi>=0.110.0
+uvicorn>=0.27.0
+pydantic>=2.0.0
+
+# ===== 数据处理 =====
+numpy>=1.26.0
+pandas>=2.2.0
+tiktoken>=0.6.0            # OpenAI tokenizer
+
+# ===== 开发工具 =====
+jupyter>=1.0.0
+ipython>=8.0.0
+pytest>=8.0.0
+black>=24.0.0

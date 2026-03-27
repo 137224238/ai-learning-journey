@@ -1,0 +1,35 @@
+# 环境变量（重要！不要提交 API Key）
+.env
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# 向量库数据（通常很大）
+chroma_db/
+*.index
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# 模型权重
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# 日志
+*.log
+logs/
+
+# 系统文件
+.DS_Store
+Thumbs.db
